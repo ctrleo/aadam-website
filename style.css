@@ -18,3 +18,10 @@ body {
     width: 70vw;
     height: 20vh;
 }
+
+#out {
+    color: lime;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    text-align: center;
+}
