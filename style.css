@@ -1,0 +1,27 @@
+* {
+    margin: auto;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+#biglogo {
+    display: block;
+    width: 50%;
+    padding-top: 10vh;
+    padding-bottom: 80px;
+}
+
+#box {
+    background-color: gray;
+    width: 70vw;
+    height: 20vh;
+}
+
+#out {
+    color: lime;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    text-align: center;
+}
