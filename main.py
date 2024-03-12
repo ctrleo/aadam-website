@@ -1,4 +1,4 @@
-from pyscript import document
+from pyscript import document, when
 def choice(out, one, two=None, three=None, four=None, five=None):
     document.querySelector("#out").innerText = out
     document.querySelector('#one').innerText = one
