@@ -15,4 +15,5 @@ def choice(out, one, two=None, three=None, four=None, five=None):
     if five != None:
         document.querySelector('#five').innerText = five
         document.querySelector('#five').style.display = 'inline-block'
-choice("First Choice!", "A", "B")
+
+# pls add some code :3
