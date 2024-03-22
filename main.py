@@ -1,4 +1,3 @@
-import time
 from pyscript import document
 button_bind = 0
 def write(text):
@@ -21,9 +20,6 @@ def choice(out, one, two=None, three=None, four=None, five=None):
     if five != None:
         document.querySelector('#five').innerText = five
         document.querySelector('#five').style.display = 'inline-block'
-    while button_bind == 0:
-        waiting_for_input = True
-    return button_bind
 
 first = choice("New test choice", "A", "B", "C")
 match first:
